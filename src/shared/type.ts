@@ -1,7 +1,7 @@
-enum SelectedPage{
-    Home = "home",
-    Profile = "profile",
-    Chat = "chat",
-    Game = "game",
+enum SelectedPage {
+  Home = "home",
+  Benefits = "benefits",
+  OurClass = "ourclass",
+  ContactUs = "contactus",
 }
-export { SelectedPage};
+export { SelectedPage };
