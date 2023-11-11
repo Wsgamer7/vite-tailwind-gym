@@ -22,7 +22,10 @@ const Home = (props: Props) => {
   return (
     <section id="home" className="bg-gary-20 gap-16 py-10 md:h-full md:pb-0">
       {/* Image and main header */}
-      <div className="mx-auto w-5/6 items-center justify-center md:flex md:h-5/6">
+      <motion.div
+        className="mx-auto w-5/6 items-center justify-center md:flex md:h-5/6"
+        onViewportEnter={() => props.setSelectedPage(SelectedPage.Home)}
+      >
         {/*Main head*/}
         <div className="z-10 mt-32 md:basis-3/5">
           {/*Headings */}
@@ -76,7 +79,7 @@ const Home = (props: Props) => {
         >
           <img src={HomePageGraphic} alt="home page graphic  " />
         </motion.div>
-      </div>
+      </motion.div>
       {/*Sponces*/}
       {isAboveMediumScreen && (
         <div className="h-[100px] w-full bg-primary-100 py-5">
