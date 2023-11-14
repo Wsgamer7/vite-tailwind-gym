@@ -1,4 +1,3 @@
-import React from "react";
 import { motion } from "framer-motion";
 
 import userMediaQuery from "@/hooks/userMediaQuery";
@@ -7,7 +6,6 @@ import { SelectedPage } from "@/shared/type";
 
 import HomePageText from "@/assets/HomePageText.png";
 import HomePageGraphic from "@/assets/HomePageGraphic.png";
-import EvolveText from "@/assets/EvolveText.png";
 import SponsorForbes from "@/assets/SponsorForbes.png";
 import SponsorFortune from "@/assets/SponsorFortune.png";
 import SponsorRedBull from "@/assets/SponsorRedBull.png";
