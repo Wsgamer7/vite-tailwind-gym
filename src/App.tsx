@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import Navbar from "@/scenes/navbar";
 import Home from "@/scenes/home";
 import Benefits from "@/scenes/benefits";
+import ContactUs from "@/scenes/contactUs";
 import { SelectedPage } from "@/shared/type";
 
 function App() {
@@ -38,6 +39,7 @@ function App() {
       />
       <Home setSelectedPage={setSelectedPage} />
       <Benefits setSelectedPage={setSelectedPage} />
+      <ContactUs setSelectedPage={selectedPage} />
     </div>
   );
 }
