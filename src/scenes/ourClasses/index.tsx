@@ -1,4 +1,3 @@
-import React from "react";
 import { motion } from "framer-motion";
 import { SelectedPage, OurClass } from "@/shared/type";
 import HText from "@/shared/HText";
