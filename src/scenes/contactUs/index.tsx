@@ -6,7 +6,7 @@ import HText from "@/shared/HText";
 import contactUsPageGraphic from "@/assets/ContactUsPageGraphic.png";
 
 type Props = {
-  setSelectedPage: (selectedPage: SelectedPage) => void;
+  setSelectedPage: (page: SelectedPage) => void;
 };
 
 const ContactUs = (props: Props) => {
@@ -23,7 +23,7 @@ const ContactUs = (props: Props) => {
     }
   };
   return (
-    <section className="mx-auto w-5/6 pt-24" id="contactus">
+    <section id="contactus" className="mx-auto w-5/6 md:py-16">
       <motion.div
         className="items-center justify-center"
         onViewportEnter={() => props.setSelectedPage(SelectedPage.ContactUs)}

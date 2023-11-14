@@ -9,3 +9,9 @@ export interface Benefit {
   title: string;
   description: string;
 }
+
+export interface OurClass {
+  name: string;
+  description: string;
+  image: string;
+}
