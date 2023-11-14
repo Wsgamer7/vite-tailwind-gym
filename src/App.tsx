@@ -27,11 +27,6 @@ function App() {
     };
   }, []);
 
-  const testSetSelectedPage = (selectedPageNew: SelectedPage) => {
-    setSelectedPage(selectedPageNew);
-    console.log("now selected page is:" + selectedPage);
-  };
-
   return (
     <div className="app bg-gray-20 ">
       <Navbar
